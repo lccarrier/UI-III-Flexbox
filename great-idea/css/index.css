@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		display: flex;
+		justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+.main {
+	width: 920px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+
+header nav a {
+	margin: 0 25px;
+	font-size: 15px;
+	color: #B9B9B9;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	margin: 70px 0px;
+}
+
+.hero-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+button {
+	height: 36px;
+	width: 175px;
+	font-size: 18px;
+	background-color: white;
+	border: 1px solid black;
+	align-self: center;
+	margin-top: 10px;
+}
+
+
+
+.hero-title {
+	font-size: 80px;
+	text-align: center;
+}
+
+
+.hero-right {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.top {
+	display: flex;
+	margin-top: 25px;
+}
+
+
+.top-left {
+	margin-left: 10px;
+}
+
+.top-right {
+	margin-right: 10px;
+}
+
+.middle-img {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.bottom-left { 
+	margin: 0px 7px 0px 0px;
+}
+
+.bottom-center { 
+	margin: 0px 7px;
+}
+
+.bottom-right { 
+	margin: 0px 0px 0px 7px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px;
+	padding-bottom: 50px;
+	font-size: 15px;
+}
+
+hr {
+	margin: 50px 0px;
+}
