@@ -65,10 +65,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
+
+
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
-/* Your code starts here! */
+/* Header */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -85,12 +90,113 @@ header nav a {
 
 
 
+/* Image */
+.services-header-img {
+  margin-top: 25px;
+  width: 100%;
+}
 
 
+
+/* Services */
+.intro {
+  margin: 50px 0px;
+}
+
+
+
+/* LINE */
+
+hr {
+  margin-top: 25px;
+  border-top: 1px solid black;
+}
+
+
+
+
+/* Grid */
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+
+.block {
+  width: 440px;
+  height: 250px;
+  border: 1px solid black;
+  background-color: #F4F3F4;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card { 
+  margin-left: 10px;
+}
+
+.card-title, .card-p, .card-button {
+  margin: 10px
+}
+
+button {
+  height: 36px;
+  width: 142px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* About us */
+
+.bot {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot-left {
+  width: 400px;
+}
+
+
+ul {
+ margin-top: 25px;
+}
+
+li {
+ list-style: square;
+ line-height: 30px;
+ list-style-position: inside;
+}
+
+ /*line */
+hr.nd {
+  margin-top: 40px;
+  border-top: 2px solid black;
+}
+
+
+/*footer */
+ footer {
+	display: flex;
+	justify-content: center;
+	margin: 100px 0px 50px 0px;
+	padding-bottom: 50px;
+	font-size: 15px;
+}
+
+
+
+/* general */
 .main {
 	width: 920px;
 }
-
 
 p {
 	font-size: 16px;
@@ -101,95 +207,7 @@ h2 {
 	font-size: 16px;
 }
 
-
-
-.hero {
-	display: flex;
-	justify-content: space-between;
-	margin: 70px 0px;
-}
-
-.hero-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 50%;
-}
-
-button {
-	height: 36px;
-	width: 175px;
-	font-size: 18px;
-	background-color: white;
-	border: 1px solid black;
-	align-self: center;
-	margin-top: 10px;
-}
-
-
-
-.hero-title {
-	font-size: 80px;
-	text-align: center;
-}
-
-
-.hero-right {
-	width: 50%;
-	display: flex;
-	justify-content: flex-end;
-}
-.top {
-	display: flex;
-	margin-top: 25px;
-}
-
-
-.top-left {
-	margin-left: 10px;
-}
-
-.top-right {
-	margin-right: 10px;
-}
-
-.middle-img {
-	margin-top: 50px;
-	width: 100%;
-}
-
-.bottom {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.bottom-left { 
-	margin: 0px 7px 0px 0px;
-}
-
-.bottom-center { 
-	margin: 0px 7px;
-}
-
-.bottom-right { 
-	margin: 0px 0px 0px 7px;
-}
-
-
-
-hr {
-	margin: 50px 0px;
-}
-
- footer {
-	display: flex;
-	justify-content: center;
-	margin-top: 100px;
-	padding-bottom: 50px;
-	font-size: 15px;
-}
-
-
+ h1 {
+   font-size: 26px;
+ }
 
